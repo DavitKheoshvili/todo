@@ -4,7 +4,7 @@ function Title() {
     return (
       <div className='flex justify-between items-center'>
         <h1 className="text-white text-xl font-bold tracking-[0.5rem]">TODO</h1>
-        <img className="w-5 h-5" src={Moon}/>
+        <button className="w-5 h-5"><img src={Moon}/></button>
       </div>
     );
   }

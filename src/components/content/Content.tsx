@@ -1,11 +1,15 @@
 import Input from "../input/Input";
-import Todo from "../todo/Todo";
+import ItemsInfo from "../itemsInfo/ItemsInfo";
+import Filter from "../filter/Filter";
+import TodoContainer from "../todoContainer/TodoContainer";
 
 function Content() {
     return (
-      <div className="px-7 bg-white">
+      <div className="px-7 bg-[#F2F2F2] ">
         <Input />
-        <Todo />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+        <TodoContainer />
+        <ItemsInfo /> 
+        <Filter />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
       </div>
     );
   }
